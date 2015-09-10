@@ -1,7 +1,7 @@
 {
   "name": "pick.Ninja.JS",
   "version": "0.0.0",
-  "description": "",
+  "description": "Retorna uma cópia parcial de um objeto que contém somente as chaves especificadas e atribuindo undefined para chaves nao encontrada",
   "main": "pick.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
