@@ -29,7 +29,7 @@ this.Ninja.module('$pick', ['$curry', '$reduce', '$prop'], function ($curry, $re
    */
   function pick(a, b) {
     return $reduce(a, {}, function (x, y) {
-      return Object.defineProperty(x, y, { value: $prop(y, b) });
+      return Object.defineProperty(x, y, { value: $prop(y, b), enumerable: true, configurable: true, writable: true });
     });
   }
   
